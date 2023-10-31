@@ -2,24 +2,27 @@
 #### Utilize the machine learning algorithms to look for habitable exoplanets
 
 ### Motivation:
-Several machine learning algorithms have been used to predict the habitability of known exoplanets, it includes: deep learning, anomaly detection etc. It would be encouraging to explore other ways to achieve the similiar goals.
 
-PHL is an prestigous institue on the domain of habitability of exoplanets, which has published and updated the list of potential habitable exoplanets time to time, and even the models it has utilized are sophisticate and improved constantly, it is still possibility of FALSE NEGATIVE ( Habitable in fact, but inhabitable as predicted). Thus, I am trying to look for such FALSE NEGATIVE as assisted with Machine Learning Alorithms, specifically clustering.
+Various machine learning algorithms, including deep learning and anomaly detection, have been employed to assess the habitability of known exoplanets. Exploring alternative methods to achieve similar objectives would be beneficial. 
+
+The Planetary Habitability Laboratory (PHL), a prestigious institute in the field of exoplanet habitability, regularly publishes and updates a list of potentially habitable exoplanets. Despite the sophistication and continual improvement of their models, there remains the possibility of false negatives (planets that are habitable but predicted as uninhabitable). My goal is to identify such false negatives using machine learning algorithms, with a focus on clustering.
 
 ### Approach:
 
-1. Pick up the typical features of exoplanets for the detection of habitability from PHL.
-2. Apply with 3 ways consisted of ML algorithms to find out the inhabitable candidates which are most closed to habitable exoplanets based on the results of PHL.
-3. Scrutize the candidates by ChatGPT-4 and the professional website on the study of habitability of exoplanets to lock down the FALSE-NEGATIVE candidates.
+1. Identify key exoplanet features for habitability detection from PHL's data.
+2. Employ three different machine learning approaches to pinpoint candidates that are nearly habitable based on PHL's findings.
+3. Examine these candidates through ChatGPT-4 and reputable websites dedicated to the study of exoplanet habitability to confirm false-negative cases.
 
 ### Conclusion:
-1. One candidate was detected and it could be habitable even it is judged as inhabitable in PHL.
-2. The whole process does NOT mainly take the comprehensive criterias of habitability into consideration, even some criterial factors such as disregarding the impact from planetary systems, star, water. It should be considered in the next.
-3. Even in the clustering algorithms, the weights of features have been treated as equal, which should be reconsidered.
+
+One candidate has been identified that could be habitable, although it was deemed uninhabitable by PHL. This process did not primarily consider a comprehensive set of habitability criteria, omitting key factors such as the impact of planetary systems, stars, and the presence of water. 
+
+Additionally, in the clustering algorithms, all feature weights were treated equally, which may need revision.
 
 ### Next steps:
-1. The new algorithms are required to be built to fully consider the comprehensive criterias of habitability.
-2. The features of habitability needs to be weighted.
+
+- Develop new algorithms that fully incorporate comprehensive criteria for habitability.
+- Assign appropriate weights to different habitability features.
 
 ### Notes:
 1. It is required to input OPENAI API KEY and Google SEARCH API KEY.
