@@ -5,7 +5,7 @@
 
 Various machine learning algorithms, including deep learning and anomaly detection, have been employed to assess the habitability of known exoplanets. Exploring alternative methods to achieve similar objectives would be beneficial. 
 
-The Planetary Habitability Laboratory (PHL), a prestigious institute in the field of exoplanet habitability, regularly publishes and updates a list of potentially habitable exoplanets. Despite the sophistication and continual improvement of their models, there remains the possibility of false negatives (planets that are habitable but predicted as uninhabitable). My goal is to identify such false negatives using machine learning algorithms, with a focus on clustering.
+The [Planetary Habitability Laboratory (PHL)](https://phl.upr.edu/home), a prestigious institute in the field of exoplanet habitability, regularly publishes and updates a list of potentially habitable exoplanets. Despite the sophistication and continual improvement of their models, there remains the possibility of false negatives (planets that are habitable but predicted as uninhabitable). My goal is to identify such false negatives using machine learning algorithms, with a focus on clustering.
 
 ### Approach:
 
@@ -18,7 +18,7 @@ The Planetary Habitability Laboratory (PHL), a prestigious institute in the fiel
 
 ### Conclusion:
 
-One candidate has been identified that could be habitable, although it was deemed uninhabitable by PHL. This process did not primarily consider a comprehensive set of habitability criteria, omitting key factors such as the impact of planetary systems, stars, and the presence of water. 
+One candidate (K2-3 d) has been identified that could be habitable [by 2 criteria ( Solar Eq. Astronomical Unit and Kopparapu)](http://www.exoplanetkyoto.org/exohtml/K2-3_d.html), although it was deemed uninhabitable by PHL. This process did not primarily consider a comprehensive set of habitability criteria, omitting key factors such as the impact of planetary systems, stars, and the presence of water. 
 
 Additionally, in the clustering algorithms, all feature weights were treated equally, which may need revision.
 
