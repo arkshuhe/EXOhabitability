@@ -10,8 +10,11 @@ The Planetary Habitability Laboratory (PHL), a prestigious institute in the fiel
 ### Approach:
 
 1. Identify key exoplanet features for habitability detection from PHL's data.
-2. Employ three different machine learning approaches to pinpoint candidates that are nearly habitable based on PHL's findings.
-3. Examine these candidates through ChatGPT-4 and reputable websites dedicated to the study of exoplanet habitability to confirm false-negative cases.
+2. Employ 3 different machine learning approaches (dimensionality reduction,Clustering) to pinpoint candidates that are nearly habitable based on PHL's findings. Those approaches include:
+   - PCA + Kmeans
+   - UMAP + DBSCAN
+   - Cosine similarity
+4. Examine these candidates through ChatGPT-4 and reputable websites dedicated to the study of exoplanet habitability to confirm false-negative cases.
 
 ### Conclusion:
 
