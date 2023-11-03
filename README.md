@@ -31,4 +31,4 @@ Additionally, in the clustering algorithms, all feature weights were treated equ
 1. It is required to input OPENAI API KEY and Google SEARCH API KEY.
 2. The whole propgrams is consisted of 2 sections:
    - main program: exoplanets_confirmation.ipynb
-   - handy functions: helper.py
+   - source data: table.csv for all exoplanets' features from PHL, PHE.csv for habitable exoplanets from PHL.
